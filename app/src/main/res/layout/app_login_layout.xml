@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/login_bg_color">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="240px"
+        android:layout_marginLeft="32px"
+        android:layout_marginRight="32px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_info_shape">
+
+        <LinearLayout
+            android:layout_marginTop="40px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginLeft="20px"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="用户名"/>
+
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:src="@color/login_lnfo_splitline_color"/>
+        <LinearLayout
+            android:layout_marginBottom="40px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:layout_marginLeft="20px"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="密  码"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="32px"
+        android:layout_marginRight="32px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登  陆"
+            android:textColor="@color/login_bg_color"
+            android:background="@drawable/login_bt_shape" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
